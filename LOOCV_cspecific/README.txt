@@ -5,6 +5,7 @@ To run:
 2) In the data folder, place the two files from the cancer immune landscape paper:
 	- EBPlusPlusAdjustPANCAN_IlluminaHiSeq_RNASeqV2.geneExp.tsv (gene expression data)
 	- TCGA.Kallisto.fullIDs.cibersort.relative_cancerImmuneLandscape.tsv (cell fraction data)
+	Files can be found here: https://gdc.cancer.gov/about-data/publications/panimmune
 3) Make sure you have the requested packages installed:
 	- Multiprocessing
 	- Numpy
