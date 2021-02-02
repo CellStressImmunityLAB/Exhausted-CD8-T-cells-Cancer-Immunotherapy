@@ -22,13 +22,15 @@ Less if these packages or equivalents are already installed.
 Running the script and expected output 
 =======================================
 To run:
-1) Go to the official link of the "The immune landscape of cancer": https://gdc.cancer.gov/about-data/publications/panimmune (REF: http://www.cell.com/immunity/retrieve/pii/S1074761318301213). You can also find this link in the "Data" folder.
+1) Go to the official link of the "The immune landscape of cancer": https://gdc.cancer.gov/about-data/publications/panimmune 
+	(REF: http://www.cell.com/immunity/retrieve/pii/S1074761318301213). You can also find this link in the "Data" folder.
 2) In the data folder, place the two files necessary to run the script:
 	- EBPlusPlusAdjustPANCAN_IlluminaHiSeq_RNASeqV2.geneExp.tsv (gene expression data)
 	- TCGA.Kallisto.fullIDs.cibersort.relative_cancerImmuneLandscape.tsv (cell fraction data)
 3) Change your current work directory to the folder containing the scripts. (e.g. cd /Users/MyUserName/Desktop/LOOCV_cspecific for macOSX)
 4) Run the LOOCV.py script with Python in your favourite IDE/terminal: python LOOCV.py
-5) Output should appear as an Excel table (CorrelationSignature_Preds_Real_Pearson_Garg.xlsx) in the current work directory and list the Pearson correlations per cancer type. If everything processed properly, you should see something like this:
+5) Output should appear as an Excel table (CorrelationSignature_Preds_Real_Pearson_Garg.xlsx) in the current work directory.
+It will list the Pearson correlations per cancer type. If everything processed properly, you should see something like this:
 
 	CancerType	PearsonCorr	Signature
 0	BLCA	0.806333587	Garg
