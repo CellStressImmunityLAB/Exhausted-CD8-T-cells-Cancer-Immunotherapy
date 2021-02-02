@@ -1,5 +1,15 @@
-Running the script
+Setting up the environment (from scratch)
+==========================================
+1) Download the correct Anaconda for your OS: https://www.anaconda.com
+2) 
+
+Installation time
 ===================
+Typically within 10 minutes, depending on the speed of the Internet connection.
+Less if these packages or equivalents are already installed.
+
+Running the script and expected output 
+=======================================
 To run:
 1) Make a folder named "Data" in the directory containing the scripts.
 2) In the data folder, place the two files from the cancer immune landscape paper:
@@ -19,3 +29,4 @@ To run:
 4) Change your current work directory to the folder containing the scripts.
 5) Execute the LOOCV.py script with Python in your favourite IDE/terminal: python LOOCV.py
 6) Output should appear as an Excel table in the current work directory and list the Pearson correlations per cancer type.
+
