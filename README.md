@@ -24,3 +24,6 @@
 
 ## Plots associated with figure 8
 <placeholder>
+
+
+For datasets associated with these scripts, please see the links and objects uploaded on Synapse (syn40323295).
