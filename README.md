@@ -8,6 +8,7 @@ Single-cell analysis to identify the various CD8+ T cell populations in the BROA
 
 ## Figure 3
 Python script associated with the CD8+ T cell TCRseq analysis.
+You will need to download the PanImmune gene set definitions from the Thorsson et al. (2017) Immune landscape of cancer paper.
 
 
 For datasets associated with these scripts, please see either the original studies cited in the manuscript or the links and objects uploaded on Synapse (syn40323295) associated with these objects.
